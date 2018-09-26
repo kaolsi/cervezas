@@ -1,0 +1,30 @@
+{
+  "name": "pruebacervezasruth",
+  "version": "1.0.0",
+  "description": "Libreria listado practica 3",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaolsi/cervezas.git"
+  },
+  "author": "kaolsi <ruth96ortega@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaolsi/cervezas/issues"
+  },
+  "homepage": "https://github.com/kaolsi/cervezas#readme",
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "dependencies": {
+    "unique-random-array": "^1.0.1"
+  }
+}

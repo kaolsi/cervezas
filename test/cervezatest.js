@@ -5,10 +5,10 @@ const cervezas = require('../src/index')
 describe('Cervezas', () => {
   describe('La lista de todas', () => {
     it('Debería ser un array', () => {
-      expect(cervezas.todas).yo.satisfy(isArrayOfObjects)
+      expect(cervezas.todas).to.satisfy(isArrayOfObjects)
     })
     it('Debería contener ambar', () => {
-      expect(cervezas.todas).yo.satisfy(contieneAmbar)
+      expect(cervezas.todas).to.satisfy(contieneAmbar)
     })
   })
   describe('Elegir una cerveza al azar', () => {

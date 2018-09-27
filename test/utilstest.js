@@ -1,4 +1,7 @@
 const utils = require('../src/utils')
+let expect = require('chai').expect
+// expect chai
+/* const cervezas = require('../src/utils') */
 
 // Vamos a utilizar mocha
 

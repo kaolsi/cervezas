@@ -1,5 +1,6 @@
 const utils = require('../src/utils')
 let expect = require('chai').expect
+const cervezas = require('../src/index')
 
 describe('Cervezas', () => {
   describe('La lista de todas', () => {

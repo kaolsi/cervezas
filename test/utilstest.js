@@ -12,7 +12,7 @@ describe('Módulo utils', () => {
         throw new Error(`La suma de positivos no funciona. ${res}`)
       } */
       expect(utils.suma(3, 5)).equal(8)
-    }ss)
+    })
     it('Suma negativos', () => {
       const res = utils.suma(-3, -4)
       if (res !== -7) {
